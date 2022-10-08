@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		FB56BB0A28E6CEF500D76EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56BB0928E6CEF500D76EDF /* AppDelegate.swift */; };
 		FB56BB0C28E6CEF500D76EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56BB0B28E6CEF500D76EDF /* SceneDelegate.swift */; };
-		FB56BB0E28E6CEF500D76EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56BB0D28E6CEF500D76EDF /* ViewController.swift */; };
-		FB56BB1128E6CEF500D76EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB56BB0F28E6CEF500D76EDF /* Main.storyboard */; };
+		FB56BB0E28E6CEF500D76EDF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56BB0D28E6CEF500D76EDF /* TabBarController.swift */; };
 		FB56BB1328E6CEF600D76EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB56BB1228E6CEF600D76EDF /* Assets.xcassets */; };
 		FB56BB1628E6CEF600D76EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB56BB1428E6CEF600D76EDF /* LaunchScreen.storyboard */; };
+		FBEE8E8A28F1337B00AF9BC4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8E8928F1337B00AF9BC4 /* FeedViewController.swift */; };
+		FBEE8E8C28F1339C00AF9BC4 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8E8B28F1339C00AF9BC4 /* StarViewController.swift */; };
+		FBEE8E8E28F133B600AF9BC4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8E8D28F133B600AF9BC4 /* SettingViewController.swift */; };
+		FBEE8E9128F1384100AF9BC4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8E9028F1384100AF9BC4 /* SnapKit */; };
+		FBEE8E9428F13B9500AF9BC4 /* FeedViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8E9328F13B9500AF9BC4 /* FeedViewControllerCell.swift */; };
+		FBEE8E9628F15AFE00AF9BC4 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8E9528F15AFE00AF9BC4 /* Feed.swift */; };
+		FBEE8E9928F15B6F00AF9BC4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE8E9828F15B6F00AF9BC4 /* Kingfisher */; };
+		FBEE8E9B28F16BA800AF9BC4 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE8E9A28F16BA800AF9BC4 /* UploadViewController.swift */; };
+		FBEE8E9D28F173D200AF9BC4 /* Feed.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBEE8E9C28F173D200AF9BC4 /* Feed.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB56BB0628E6CEF500D76EDF /* TheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB56BB0928E6CEF500D76EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB56BB0B28E6CEF500D76EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB56BB0D28E6CEF500D76EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB56BB1028E6CEF500D76EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB56BB0D28E6CEF500D76EDF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FB56BB1228E6CEF600D76EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB56BB1528E6CEF600D76EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB56BB1728E6CEF600D76EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE8E8928F1337B00AF9BC4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FBEE8E8B28F1339C00AF9BC4 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		FBEE8E8D28F133B600AF9BC4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		FBEE8E9328F13B9500AF9BC4 /* FeedViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerCell.swift; sourceTree = "<group>"; };
+		FBEE8E9528F15AFE00AF9BC4 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		FBEE8E9A28F16BA800AF9BC4 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		FBEE8E9C28F173D200AF9BC4 /* Feed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feed.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEE8E9928F15B6F00AF9BC4 /* Kingfisher in Frameworks */,
+				FBEE8E9128F1384100AF9BC4 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +74,27 @@
 			children = (
 				FB56BB0928E6CEF500D76EDF /* AppDelegate.swift */,
 				FB56BB0B28E6CEF500D76EDF /* SceneDelegate.swift */,
-				FB56BB0D28E6CEF500D76EDF /* ViewController.swift */,
-				FB56BB0F28E6CEF500D76EDF /* Main.storyboard */,
+				FBEE8E9528F15AFE00AF9BC4 /* Feed.swift */,
+				FB56BB0D28E6CEF500D76EDF /* TabBarController.swift */,
 				FB56BB1228E6CEF600D76EDF /* Assets.xcassets */,
 				FB56BB1428E6CEF600D76EDF /* LaunchScreen.storyboard */,
+				FBEE8E9C28F173D200AF9BC4 /* Feed.plist */,
 				FB56BB1728E6CEF600D76EDF /* Info.plist */,
+				FBEE8E9228F13B7D00AF9BC4 /* FeedViewController */,
+				FBEE8E8B28F1339C00AF9BC4 /* StarViewController.swift */,
+				FBEE8E8D28F133B600AF9BC4 /* SettingViewController.swift */,
 			);
 			path = TheDay;
+			sourceTree = "<group>";
+		};
+		FBEE8E9228F13B7D00AF9BC4 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE8E8928F1337B00AF9BC4 /* FeedViewController.swift */,
+				FBEE8E9328F13B9500AF9BC4 /* FeedViewControllerCell.swift */,
+				FBEE8E9A28F16BA800AF9BC4 /* UploadViewController.swift */,
+			);
+			path = FeedViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +113,10 @@
 			dependencies = (
 			);
 			name = TheDay;
+			packageProductDependencies = (
+				FBEE8E9028F1384100AF9BC4 /* SnapKit */,
+				FBEE8E9828F15B6F00AF9BC4 /* Kingfisher */,
+			);
 			productName = TheDay;
 			productReference = FB56BB0628E6CEF500D76EDF /* TheDay.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +145,10 @@
 				Base,
 			);
 			mainGroup = FB56BAFD28E6CEF500D76EDF;
+			packageReferences = (
+				FBEE8E8F28F1384100AF9BC4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FBEE8E9728F15B6F00AF9BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FB56BB0728E6CEF500D76EDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB56BB1628E6CEF600D76EDF /* LaunchScreen.storyboard in Resources */,
+				FBEE8E9D28F173D200AF9BC4 /* Feed.plist in Resources */,
 				FB56BB1328E6CEF600D76EDF /* Assets.xcassets in Resources */,
-				FB56BB1128E6CEF500D76EDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB56BB0E28E6CEF500D76EDF /* ViewController.swift in Sources */,
+				FB56BB0E28E6CEF500D76EDF /* TabBarController.swift in Sources */,
+				FBEE8E9628F15AFE00AF9BC4 /* Feed.swift in Sources */,
+				FBEE8E9428F13B9500AF9BC4 /* FeedViewControllerCell.swift in Sources */,
+				FBEE8E8C28F1339C00AF9BC4 /* StarViewController.swift in Sources */,
+				FBEE8E9B28F16BA800AF9BC4 /* UploadViewController.swift in Sources */,
 				FB56BB0A28E6CEF500D76EDF /* AppDelegate.swift in Sources */,
+				FBEE8E8A28F1337B00AF9BC4 /* FeedViewController.swift in Sources */,
 				FB56BB0C28E6CEF500D76EDF /* SceneDelegate.swift in Sources */,
+				FBEE8E8E28F133B600AF9BC4 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB56BB0F28E6CEF500D76EDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB56BB1028E6CEF500D76EDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB56BB1428E6CEF600D76EDF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +328,6 @@
 				INFOPLIST_FILE = TheDay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +355,6 @@
 				INFOPLIST_FILE = TheDay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +392,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBEE8E8F28F1384100AF9BC4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		FBEE8E9728F15B6F00AF9BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBEE8E9028F1384100AF9BC4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8E8F28F1384100AF9BC4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FBEE8E9828F15B6F00AF9BC4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE8E9728F15B6F00AF9BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB56BAFE28E6CEF500D76EDF /* Project object */;
 }
